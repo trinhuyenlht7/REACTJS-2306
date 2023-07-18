@@ -8,6 +8,8 @@
     width: 100%;
     height: 46px;
     background-color: black;
+    /* position: fixed;
+    top: 0; */
 
 }
 
@@ -15,6 +17,10 @@
     float: right;
     padding: 15px 15px 0 0;
     color: aliceblue ;
+}
+
+.fa-solid:hover{
+    color: red;
 }
 
 .menu-nav{
@@ -47,4 +53,68 @@
     .small{
         display: none;
     }
+}
+
+#header{
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    background: url(/images/chicago.jpg) top center/ cover no-repeat;
+}
+
+.header-content{
+    color: #fff;
+    width: 100%;/*căn giửa nửa nè*/
+    position: absolute;
+    bottom: 70px;
+    text-align: center;
+    /* left: 50%;/*căn giữa
+    transform: translateX(-50%);căn giữa */
+}
+
+.title-header{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.content-header{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#slide{
+    text-align: center;
+    width: 800px;
+    height: fit-content;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title-slide{
+    padding-top: 25px;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+.small-title-slide{
+    padding-top: 25px;
+    opacity: 0,6;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.content-slide{
+    padding-top: 25px;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+img{
+    float: left;
+    width: 33%;
+    padding: 50px;
 }
