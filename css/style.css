@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
 h1{
     color: red;
 }
@@ -11,4 +17,29 @@ p{
 
 table{
     text-align: center;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 50px;
+}
+
+.list-nav{
+    margin: auto 16px;
+}
+
+.li-nav{
+    list-style: none;
+    margin: 0 30px;
+    display: inline-block;
+}
+
+.list-nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
