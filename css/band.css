@@ -93,7 +93,10 @@
     margin-right: auto;
 }
 
-
+.BAND .BAND__CONTENT{
+    text-align: justify;
+    line-height: 1.4;
+}
 
 .slide__title{
     text-align: center;
@@ -125,3 +128,8 @@
     width: 90%;
 }
 
+.TOUR{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
